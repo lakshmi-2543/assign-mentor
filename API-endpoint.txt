@@ -1,0 +1,88 @@
+
+// API endpoints for render.com 
+
+1 api endpoint for getting all students details
+
+
+api endpoint for creating students details
+
+body: 
+{"name":"bala"}
+
+2 api endpoint for getting all mentors details
+
+
+api endpoint for creating new Mentors
+
+body: 
+{"name":"naga"}
+
+3 api endpoint for assigning a student to mentor
+
+
+4 api endpoint for reassigning mentor to specific student
+
+
+
+5 api endpoint for showing students of a mentor
+
+
+
+6 api endpoint to show previous mentor for a particular student
+
+
+
+===================================================================================================================
+// API endpoints for local
+
+1 api endpoint for getting all students details
+http://localhost:3000/student
+
+
+api endpoint for creating students details
+http://localhost:3000/student
+body: 
+{"name":"bala"}
+
+2 api endpoint for getting all mentors details
+http://localhost:3000/mentor
+
+api endpoint for creating new Mentors
+http://localhost:3000/mentor
+body: 
+{"name":"naga"}
+
+3 api endpoint for assigning a student to mentor
+http://localhost:3000/mentor/64cb5f61b4417465e1a322e1/student/64cb4ce4cbd16659c0b3bc3a
+
+4 api endpoint for reassigning mentor to specific student
+http://localhost:3000/student/64cb4ce4cbd16659c0b3bc3a/mentor/64cb5e7ab4417465e1a322dd
+
+
+5 api endpoint for showing students of a mentor
+http://localhost:3000/mentor/64cb5e7ab4417465e1a322dd/studentList
+http://localhost:3000/mentor/64cb5f61b4417465e1a322e1/studentList
+
+
+6 api endpoint to show previous mentor for a particular student
+http://localhost:3000/student/64cb4b37cbd16659c0b3bc34/previousMentor
+http://localhost:3000/student/64cb4c09cbd16659c0b3bc37/previousMentor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
