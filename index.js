@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const URL = process.env.ATLAS_URI;
+const URL = process.env.ATLAS_URL;
 mongoose
   .connect(URL)
   .then(() => {
